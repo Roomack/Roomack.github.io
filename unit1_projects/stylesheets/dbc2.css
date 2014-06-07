@@ -1,0 +1,62 @@
+#header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: blue;
+	height: 100px;
+	position: fixed;
+	text-align: center;
+	border: 10px solid red;
+}
+
+#sidebar {
+	top: 120px;
+	left: 0;
+	width: 200px;
+	background: orange;
+	height: 100%;
+	padding-top: 150px;
+	float: left;
+	position: fixed;
+}
+
+#contentarea {
+	top: 120px;
+	left: 200px;
+	background: black;
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	color: white;
+	padding-top: 150px;
+	float: right;
+	position: fixed;
+}
+
+#footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: blue;
+	height: 100px;
+	position: fixed;
+	text-align: center;
+	border: 10px solid red;
+}
+
+#image{
+	width: 250px;
+	margin: 0 auto;
+
+}
+
+.keyword {
+	font-size: 24pt;
+	font-family: cursive;
+}
+
+a:hover {
+	background-color: yellow;
+	color: red;
+}
