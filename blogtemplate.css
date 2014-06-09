@@ -93,22 +93,22 @@ h1 {
 	font-size: 42pt;
 }
 h2 {
-	color: #black;
+	color: black;
 	padding-top: 0px;
 }
 
-#section1 a:visited {
+a:link {
+	color: black;
+}
+a:visited {
 	color: black;
 }
 
-a:hover {
-	color: yellow;
+#footer a:link {
+	color: blue;
 }
-
-#footer a:visited {
-	color: #005CE6;
+#footer a:visited{
+	color: blue;
 }
-#footer a:hover {
-	color: yellow;
 }
 
