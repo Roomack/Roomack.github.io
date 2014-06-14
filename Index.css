@@ -113,7 +113,7 @@ footer a{
 h2 {
 	font-size: 2em;
 	margin-top: .5em;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 }
 
 article p {
@@ -122,6 +122,14 @@ article p {
 
 nav a:hover{
 	color: #00FF00;
+}
+
+article a:link {
+	color: #00FF00;
+}
+
+article a:hover {
+	color: white;
 }
 
 @font-face {
