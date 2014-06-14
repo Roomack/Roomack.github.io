@@ -116,6 +116,10 @@ nav a:hover{
 	color: #00FF00;
 }
 
+nav p {
+	color: white;
+}
+
 @font-face {
 	font-family: 'IcoMoon';
 	src:url('unit1_projects/icomoon444/fonts/icomoon.eot?er9f4g');
