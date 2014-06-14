@@ -39,7 +39,7 @@ body {
 }
 
 nav {
-	top: -40px;
+	top: -53px;
 	height: 35px;
 	width: 98%;
 	opacity: .7;
@@ -52,6 +52,14 @@ nav {
 }
 
 nav a {
+	top: 10px;
+	font-size: 1.2em;
+	color: white;
+	bottom: 0px;
+	position: relative;
+}
+
+nav p {
 	top: 10px;
 	font-size: 1.2em;
 	color: white;
@@ -114,10 +122,6 @@ article p {
 
 nav a:hover{
 	color: #00FF00;
-}
-
-nav p {
-	color: white;
 }
 
 @font-face {
