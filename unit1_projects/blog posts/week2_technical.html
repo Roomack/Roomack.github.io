@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>DBC360 - Pos</title>
+	<link rel = "stylesheet" href = "stylesheets/week2_technical.css">
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+
+	<body>
+
+			<header>
+				<h1>Technical</h1>
+			</header>
+
+			<nav>
+				<a href = "http://roomack.github.io">Home</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_wireframes.html">Wireframes</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_webpagecritic.html">Web Page Critic</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week2_technical2.html">CSS Positioning</a>
+			</nav>
+
+				<article>
+					<h2>Week 2: CSS Positioning</h2>
+		<br></br>
+		<p>As our cohort fine tunes our skills in positioning elements with CSS, I'd like to take some time in explaining the distinction between the four potential values for the "position" property:</p>
+
+		<h3>Static</h3>
+		  <p>Every element that is added to a webpage has a default position value of static when it is created.  This essentially means that the element has no specific positioning instructions.  In the example below, you'll see that there is no position property listed for either Div1 or Div2 (which demonstrates that this is the default value).  Items with a static position will be placed in the uppermost left corner of the page.  As items are added to the page, they will be placed on their own row, going vertically down the page.
+		  </p>
+		  <br>
+		  <img src = "http://oi59.tinypic.com/2q1bg9x.jpg"/>
+		  <img src = "http://oi58.tinypic.com/dd73k.jpg"/>
+		  <br></br>
+		  <p>
+		  </p>
+		  <p>------------------------</p>
+
+
+		<h3>Fixed</h3>
+		  <p>An element's position property is set to "fixed" when the developer intends on having the element maintain the same position within the browser window (even if the user is scrolling).  This is often used in the case of headers and footers on a webpage, such as the footer for this page.  When using the "fixed" position, the developer must also specify where on the page they would like for the element to be placed.  In the case of the footer for this site, the "bottom" property is set to "0px", meaning the footer should be placed at the very bottom of the page (see below).
+		  </p>
+		  <br>
+		  <img src = "http://oi62.tinypic.com/maksw9.jpg"/>
+		  <img src = "http://oi60.tinypic.com/nld36p.jpg"/>
+		  <br></br>
+		  <p>
+		  </p>
+		  <p>------------------------</p>
+
+		<h3>Relative</h3>
+		  <p>Elements are positioned using "relative" when the developer wants to place the item <em>relative</em> to itself (or <em>relative</em> to where it would have normally fallen).  When setting the position to "relative", the top, bottom, left, and/or right attributes must also be set in order to give the item placement.  If not, the element will be placed as if it were static.  Something to also remember is that any element that is postioned in this fashion will display ON TOP of any other statically positioned element.  In the example below, Div2 is placed 100px <strong> from the left</strong> of where it would have normally appeared:</p>
+		  <br>
+		  <img src = "http://oi60.tinypic.com/359wdbn.jpg"/>
+		  <img src = "http://oi60.tinypic.com/2mguzwk.jpg"/>
+		  <br></br>
+		  <p>
+		  </p>
+		  <p>----------------</p>
+
+		<h3>Absolute</h3>
+		  <p>Using the "absolute" position, a developer has the power to place an element in a very specific place on the page.  When setting the position to "absolute", the element is removed from the normal "flow" of the page, meaning that it isn't affected by, nor does it affect other elements.  Again, the top, bottom, left, or right attributes must be defined to give the item position, and these values are relative to the nearest item on the page with "relative" or "absolute" positioning.  Below you'll see that Div2's position has been set to "absolute", and has been placed 50px <strong>from the left</strong> and 50px <strong>from the top</strong> of Div1. </p>
+		  <br>
+		  <img src = "http://oi62.tinypic.com/28718k3.jpg"/>
+		  <img src = "http://oi61.tinypic.com/2uif2hl.jpg"/>
+		  <br></br>
+		  <p>
+		  </p>
+			
+				</article>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<footer>
+				<a href='mailto:andrew.mcclellan3@gmail.com'><span aria-hidden="true" data-icon="&#xe600;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://plus.google.com/u/0/communities/117586691276141762981'><span aria-hidden="true" data-icon="&#xe602;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://www.facebook.com/profile.php?id=16832695'><span aria-hidden="true" data-icon="&#xe603;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://twitter.com/AndrewMcC27'><span aria-hidden="true" data-icon="&#xe604;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://github.com/Roomack'><span aria-hidden="true" data-icon="&#xe608;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://www.linkedin.com/profile/view?id=94998946'><span aria-hidden="true" data-icon="&#xe60b;" class="down-arrow"></span></a>
+			</footer>
+		
+	</body>
+
+</html>
