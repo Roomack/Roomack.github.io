@@ -45,7 +45,7 @@ article {
 	background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5hMercN1sNAEYdWKVlEW7hYScpVx0YHjwv2avRBSI1EDFWIhU");
 	background-size: 100%;
 	padding: 10px;
-	color: #086FA1;
+	color: #00FF00;
 	border: 2px solid black;
 	margin: auto;
 	text-align: center;
@@ -88,6 +88,7 @@ h2 {
 	margin-top: .5em;
 	margin-bottom: 0px;
 	text-decoration: underline;
+	color: #086FA1;
 }
 h3 {
 	font-size: 1.5em;
