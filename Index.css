@@ -37,12 +37,11 @@ body {
 	background-color: #474747;
 	font-family: 'Special Elite';
 }
-
 nav {
 	top: -53px;
 	height: 35px;
 	width: 98%;
-	opacity: .7;
+	opacity: .6;
 	background: black;
 	color: white;
 	margin: auto;
@@ -69,7 +68,7 @@ nav p {
 
 article {
 	height: 18vh;
-	width: 70%;
+	width: 60%;
 	background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5hMercN1sNAEYdWKVlEW7hYScpVx0YHjwv2avRBSI1EDFWIhU");
 	background-size: 100%;
 	padding: 10px;
