@@ -67,7 +67,7 @@ nav p {
 }
 
 article {
-	height: 18vh;
+	height: 20vh;
 	width: 60%;
 	background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5hMercN1sNAEYdWKVlEW7hYScpVx0YHjwv2avRBSI1EDFWIhU");
 	background-size: 100%;
@@ -112,7 +112,7 @@ footer a{
 h2 {
 	font-size: 2em;
 	margin-top: .5em;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 article p {
