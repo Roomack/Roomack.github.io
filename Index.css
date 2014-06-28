@@ -131,6 +131,10 @@ article a:hover {
 	color: white;
 }
 
+article a:visited {
+	color: #00FF00;
+}
+
 @font-face {
 	font-family: 'IcoMoon';
 	src:url('unit1_projects/icomoon444/fonts/icomoon.eot?er9f4g');
