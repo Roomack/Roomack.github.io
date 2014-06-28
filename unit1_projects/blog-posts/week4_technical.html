@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+	<title>DBC360 - Loops </title>
+	<link rel = "stylesheet" href = "stylesheets/week4_technical.css">
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+
+	<body>
+
+			<header>
+				<h1>Technical</h1>
+			</header>
+
+			<nav>
+				<a href = "http://roomack.github.io">Home</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_wireframes.html">Wireframes</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_webpagecritic.html">Web Page Critic</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week2_technical.html">CSS Positioning</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week3_technical.html">JavaScript</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week4_technical.html">Loops</a>
+
+			</nav>
+
+				<article>
+
+					<h2>Week 4: Let's Get a Li'l Loopy</h2>
+					<br>
+					<br>
+					<img src = "http://www.crossfitarmada.com/images/blog%20photos/FRUIT%20LOOPS.jpg"/>
+		<br>
+		<br>
+		<p>Before I delve into the concept of loops in programming, does anyone else share in my love of Froot Loops?  Every time I here about "loops", I can't help but reminisce about that delicious cereal. Yes Toucan Sam, lure me into your gift of fruity deliciousness with that big beak of yours.  Yes sir...I want s'more...</p>
+
+		<p>ANYWAYS!</p>
+
+		<p>Loops.  As I walk the path to becoming a junior web developer, there are many concepts that are "must-haves" when it comes to coding, and "loops" are at the top of that list.  They are our friends.  They want to help us, but they need us to give them a beginning and even more importantly, an end.</p>
+
+		<p>A programming loop is used to execute a set of directions (code) over and over again, until a specific condition is met.  This is absolutely essential when it comes to writing a dynamic program that can perform calculations and display output based on those calculations.  Without loops, our programs would be much longer, complex, and limited in their functionality.  Let's go over some of the different Ruby loop structures, as well as the ideal situations in which you would use them.</p>
+
+		<h3>While Loop</h3>
+		  <p>
+		  	A while loop contains code that continues to execute as long as a condition is true, or "while" it is true.  This can be useful in situations where you don't know exactly how many times you'll need the code to execute, such as:
+		  </p>
+		  <br>
+		  <img src = "http://oi57.tinypic.com/2hfnp11.jpg"/>
+		  <img src = "http://oi59.tinypic.com/2rmrxcg.jpg"/>
+		  <br></br>
+		  <p>
+		  </p>
+		  <p>------------------------</p>
+
+		<h3>Until Loop</h3>
+		  <p>
+		  	The cousin of the "while" loop is the "Until" loop.  An until loop does just that - it continues to execute UNTIL a specific condition is met.
+		  </p>
+		  <br>
+		  <img src = "http://oi59.tinypic.com/2my3lh0.jpg"/>
+		  <img src = "http://oi59.tinypic.com/oax4t4.jpg"/>
+		  <br></br>
+		  <p>
+		  	You can almost view an "Until" loop as a reverse "While" loop.  They can often be used to achieve the same result, however your choice of which one to use may depend on your speecific program.  Using a real-life example, if I were to instruct you to do your laundry, I could it in two different ways:</p>
+
+		  	<p>"Do your laundry as long as (WHILE) there are still dirty clothes left to be cleaned."</p>
+		  	<p>Or</p>
+		  	<p>"Do your laundry UNTIL there aren't any dirty clothes left."</p>
+
+		  	<p>See? It's the same task, with the same result, yet we've got two different ways to approach the instructions.  WHILE & UNTIL - partners in crime!
+		  </p>
+		  <p>------------------------</p>
+
+		<h3>For Loop</h3>
+		  <p></p>
+		  <br>
+		  <img src = "http://oi61.tinypic.com/orhvgy.jpg"/>
+		  <img src = "http://oi58.tinypic.com/2mnj5f8.jpg"/>
+		  <br></br>
+		  <p>
+		  	And no, those dots in between "1" and "5" aren't just there to look pretty.  To be used in conjunction with the "For" loop, Ruby gives us the Inclusive and Exclusive operators. In the above example, the inclusive operator (two dots ..) tells the loop that it should execute the code for variable "num" "1 through 5 times", or, 1-2-3-4-5 times.  If we were to use the exclusive operator (three dots...) the code would exclude the final number (5), and therefore only run 4 times.
+		  </p>
+		  <p>----------------</p>
+
+		<h3>Iterators</h3>
+		  <p>As with most things Ruby, this beautiful language provides us with multiple ways of achieving a result.  Another method for running a piece of code over and over is to use <strong>iterators</strong>.  An iterator is a method that functions similarly to a loop.  A few example of iterators include:</p>
+
+		  <p id = "iterator_title">The <strong>"loop"</strong> iterator: </p>
+		  
+		  <p>loop {print "Froot Loops are TASTY!"}</p>
+		  
+		  <p>This would then print that phrase an infinite number of times (we'll go over this later).</p>
+		  
+		  <br>
+
+		  <p id = "iterator_title">The <strong>".each"</strong> iterator: </p>
+
+		  <p>object.each {| element | <em>do expression</em>}</p>
+		  <p>This is an iterator with greater power than the "loop" method in that it can be used to apply an expression to EACH element in an object.</p>
+
+		   <br>
+
+		  <p id = "iterator_title">The <strong>".times"</strong>iterator: </p>
+
+		  <p>20.times {puts "Bowl, spoon, and milk please!"}</p>
+
+		  <p>This is essentially a more a concise version of a "For" loop.  You would use this iterator when you know how many "TIMES" you want to execute a bit of code.Calling the method in this fashion would puts the string 20 times.  Simple, right?
+		  </p>
+		  
+		  <p>------------------</p>
+			
+		<h3>Infinite Loop</h3>
+		<br>
+		<img src = "http://img2.wikia.nocookie.net/__cb20120307222800/powerlisting/images/d/d9/Infinity_Symbol.jpg"/>
+
+		  <p>While this may sound awesome, the infinite loop is your program's arch-nemesis! Yes,, the thought of infinity is mind-expanding.  What could be more powerful than something that goes on forever!? Well, unfortunately computers dno't like forever very much.</p>
+
+		  <p>An infinte loop (like it's namesake), is a loop that would quite literally go on forever.  That is because the loop is never given a reason/condition to stop looping.  Take a look at this example:
+		  <br>
+		   <br>
+		  <img src = "http://oi57.tinypic.com/2e66mwy.jpg"/>
+		 
+		  <br>
+		  <p>By continuing to decrease the value of x by 1, it will never be >= 5, which means this loop would run forever (if your computer had an infinite amount of memory).</p>
+
+		  <p>As you might imagine, this spells certain doom for your program since it never has a reason to stop running.  No other code will execute, so be sure to avoid these at all costs!  Be sure that every loop you create has an exit point..or else!
+		  </p>
+				</article>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<footer>
+				<a href='mailto:andrew.mcclellan3@gmail.com'><span aria-hidden="true" data-icon="&#xe600;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://plus.google.com/u/0/communities/117586691276141762981'><span aria-hidden="true" data-icon="&#xe602;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://www.facebook.com/profile.php?id=16832695'><span aria-hidden="true" data-icon="&#xe603;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://twitter.com/AndrewMcC27'><span aria-hidden="true" data-icon="&#xe604;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://github.com/Roomack'><span aria-hidden="true" data-icon="&#xe608;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://www.linkedin.com/profile/view?id=94998946'><span aria-hidden="true" data-icon="&#xe60b;" class="down-arrow"></span></a>
+			</footer>
+		
+	</body>
+
+</html>
