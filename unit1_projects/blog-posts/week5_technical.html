@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+	<title>DBC360 - Classes</title>
+	<link rel = "stylesheet" href = "stylesheets/week5_technical.css">
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+
+	<body>
+
+			<header>
+				<h1>Technical</h1>
+			</header>
+
+			<nav>
+				<a href = "http://roomack.github.io">Home</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_wireframes.html">Wireframes</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_webpagecritic.html">Web Page Critic</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week2_technical.html">CSS Positioning</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week3_technical.html">JavaScript</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week4_technical.html">Loops</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week4_technical.html">Keeping it Classy</a>
+
+			</nav>
+
+				<article>
+
+					<h2>Ruby Classes</h2>
+					<br>
+					<br>
+					<img src= "http://www.psd1.org/cms/lib4/WA01001055/Centricity/Domain/530/Animal%20Classification.jpg" width = 500 height = 250/>
+		<br>
+		<br>
+		<p>This week's techincal topic pertains to a critical concept in Ruby programming, which is the utilization of <strong>classes</strong></p>
+
+		<p>So, what exactly are classes?  Very simply, think of a class as a group of like items/things.  Consider the animal kingdom, in which science separates groups of animals into classes based on their characteristics.  These classes include birds, reptiles, mammals, and so on, with each class containing species that share similar characteristics.  For example, laying eggs is a characteristic which all birds share, and is therefore one reason why birds are grouped together in the same class.</p>
+
+		<p>This concept is utilized in programming for much the same reason.  By creating classes in our programs, we enable the creation of objects which are instances of these classes.  These objects share many similar characteristics, and also behave alike in that they can perform the same methods.</p>
+
+		<p>Now let's go over a few topics so that you can create your own classes and use them in your programs!:</p>
+
+		<h3>Creating a Class</h3>
+		  <p>Using code to form a new class is very simple and straightforward.  Let's say that we want to create a new Bird class:
+		  	
+		  </p>
+		  <br>
+		  <img src = "http://oi58.tinypic.com/357o7j6.jpg" width = 350 height = 125/>
+		  <br></br>
+		  <p>
+		  </p>
+		  <p>------------------------</p>
+
+		<h3>Creating Instances of a Class</h3>
+		  <p>
+		  	Excellent! Our Bird class now exists.  So, now what?  The purpose for creating any class is to allow yourself to use it later for the intention of creating an <strong>instance</strong> of that class.  An instance of a class is an object which possesses all of the characteristics of the class.  Sticking with our "bird" theme, let's say we want to create a new object of the Bird class, called Bob.  We would do so with the following code:
+
+
+		  </p>
+		  <br>
+		  <img src = "http://oi59.tinypic.com/124g41c.jpg" width = 350 height = 125/>
+		  <br></br>
+		  <p>------------------------</p>
+
+		<h3>Variables and Variable Scope</h3>
+		 
+		  
+		  	<p>Revel in your new creation of life! Bob the bird now exists thanks to you.  But as it stands, he can't really do much because this essentially an empty class with no characteristics, and no methods for Bob to use.  Furthermore, and additional instances that we create will be IDENTICAL to Bob, which seems kind of pointless right?  We need to give this class some properties, and then we can use those properties to differentiate between different instances.</p>
+
+		  	<p>As we attempt to make the Bird class more unique, consider some potential qualities of birds that would be useful to define:</p>
+
+		  		<p>Color</p>
+		  		<p>Size</p>
+		  		<p>Can it fly?</p>
+		  
+		  	<p>So that our program can remember these various properties about Bob and his friends, we'll need to store their values inside <strong>variables</strong>.  Remember, a variable is just a placeholder for a value, which can be accessed/manipulated during a program.  The extent of that access/manipulation is contingent upon another importance concept in programming: <strong>variable scope.</p>
+
+		  	<p>Why is variable scope important? Sometimes we may not want all of our variables to be accessible by every part of the program at a given time.  Placing restrictions on this access keeps our program structured, and also allows for secure expandability later on.  There are four main types of variables that we use in the creation of our class:</p>
+		  	<ul>
+		  	
+		  	<li>Global: A global variable is one that is the most accessible, including across all methods and all classes within a program.  They are preceded by a $.</li>
+		  	<br>
+		  	<li>Class: A class variable is available across different objects within a class, but not across different classes. They are preceded by @@.</li>
+		  	<br>
+		  	<li>Instance: Instance variables can be utilized across different methods within a class. They are preceded by @.</li>
+		  	<br>
+		  	<li>Local: And finally, a local variable is one that can only be accessed inside the method in which they were defined. Local variables are preceded with nothing.</li>
+		  </ul>
+
+		  	<p>Now that you understand variables, let's give the Bird class some properties (using an initialize method), and store those values inside some instance variables to be used later in the program:</p>
+
+		  <img src = "http://oi61.tinypic.com/2qdd3q8.jpg" width = 400 height = 225/>
+
+		  <p>----------------</p>
+
+		<h3>Instance Methods</h3>
+		  <p>Now that Bob and any other instances of our Bird class have unique characteristics that are supplied by the user, let's make some methods that we can call on these objects to make them do things for us!</p>
+
+		  <p>To do so, we'll need to code a few <strong>instance methods</strong>.  These methods will only apply to instances of the bird class, and can be called at any given time.  The code for doing so is as follows:</p>
+
+		  <img src = "http://oi58.tinypic.com/ao89yt.jpg" width = 450 height = 400/>
+
+		  <p>If you look at the end of the program, you'll see that we called the can_it_fly method by simply typing <em>objectname.methodname</em>. The result is:</p>
+
+		  <img src = "http://oi59.tinypic.com/118esdz.jpg" width = 300 height = 100/>
+		  
+		  <p>CONGRATULATIONS! You've just created your first class, as well as an instance of that class with unique properties, and a method you can call on the instance to display a result.  Go forth with your new knowledge, and keep it CLASSY!</p>
+		  <p>------------------</p>
+			
+				</article>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<footer>
+				<a href='mailto:andrew.mcclellan3@gmail.com'><span aria-hidden="true" data-icon="&#xe600;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://plus.google.com/u/0/communities/117586691276141762981'><span aria-hidden="true" data-icon="&#xe602;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://www.facebook.com/profile.php?id=16832695'><span aria-hidden="true" data-icon="&#xe603;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://twitter.com/AndrewMcC27'><span aria-hidden="true" data-icon="&#xe604;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://github.com/Roomack'><span aria-hidden="true" data-icon="&#xe608;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://www.linkedin.com/profile/view?id=94998946'><span aria-hidden="true" data-icon="&#xe60b;" class="down-arrow"></span></a>
+			</footer>
+		
+	</body>
+
+</html>
