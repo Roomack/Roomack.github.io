@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+	<title>DBC360 - C vs M</title>
+	<link rel = "stylesheet" href = "stylesheets/week6_technical.css">
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+
+	<body>
+
+			<header>
+				<h1>Technical</h1>
+			</header>
+
+			<nav>
+				<a href = "http://roomack.github.io">Home</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_wireframes.html">Wireframes</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week1_webpagecritic.html">Web Page Critic</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week2_technical.html">CSS Positioning</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week3_technical.html">JavaScript</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week4_technical.html">Loops</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week5_technical.html">Keeping it Classy</a>&nbsp&nbsp&nbsp&nbsp
+				<a href = "week6_technical.html">Classes vs Modules</a>
+
+			</nav>
+
+				<article>
+
+					<h2>Classes vs Modules</h2>
+					<br>
+					<br>
+					<img src= "https://warosu.org/data/fa/img/0079/98/1395807100371.gif" width = 550 height = 400/>
+		<br>
+		<br>
+		<p>In my blog post from Week 5, you read all about <strong>Classes</strong>: how they're created, how they're used, and what they're good for.  This week, I'd like to dive into another critical element of the Ruby programming language: modules.
+
+		<p>------------------------</p>
+
+		<h3>What is a Module?</h3>
+
+		<img src = "http://images.sodahead.com/polls/004154565/2328393006_huh_what_answer_3_xlarge.jpeg" width = 400 height = 250/>
+		  
+		  <p>As you're well aware of by now, Ruby gives us a large number of "tools" we can use to write our programs.  These tools serve a variety of different purproses, and are only used when necessary.  Where are tools kept? A TOOLBOX! That's where modules step in to our program.  The reason for storing this info for later, is that it is much faster to simply call a module when necessary, rather than having all of the methods/constants of a module written into our program.  This not only keeps the program running faster, but it also keeps the code in our program as clean as possible.What is stored in a module is largely up to the programmer, but they usually store methods and constants.</p>
+
+		  <p>You already know what methods are, but what is a constant?  A constant is like a variable, except that it maintains a <em>constant</em> value throughout a program.  Because modules don't typically contain things that change, constants are well suited to be included in modules. 
+		  <br>
+		  <p>------------------------</p>
+
+		<h3>What Makes Classes and Modules the Same?</h3>
+
+		 <img src = "http://upload.wikimedia.org/wikipedia/en/c/ca/Identical_Twins,_Roselle,_New_Jersey,_1967.jpg" width = 350 height = 350/>
+		  
+		  <p>Despite their differences, how are modules and classes similar?  First, a programmer can create their very own unique module just as they would a class.  They are each declared in much the same way, with the module/class name being written in CamelCase:</p>
+
+		  <p>Class Declaration:		class NameOfClass</p>
+		  <p>Module Declaration:	module NameOfModule</p>
+
+		 <p>Modules are also similar to classes in that they contain information that can be used throughout a program (whenever called).  Also, just as there are several built-in classes in Ruby such as the <em>Object Class</em>, Ruby also has built-in modules such as the <em>Math Module</em>.  These built-in modules contain common CONSTANTS and methods that are often used in various programs.</p>
+
+		  </p>
+		  <br>
+		  <br>
+		  <p>------------------------</p>
+
+		<h3>What Makes Them Different?</h3>
+
+		<img src = "http://payload176.cargocollective.com/1/0/12628/5838293/BalanceOfOpposites_900_860.jpg" width = 350 height = 275/>
+		 
+		  	<p>Now that you have a basic understanding of their similarities, consider their differences:</p>
+
+		  	<p>Where as a class is typically used to create <em>instances</em> of that class, modules are unable to create instances of themselves.  By definition, an instance often contains characteristics/attributes that can CHANGE, based on information provided by the user pertaining to that specific instance.  Hence why modules do not have this ability.  Their intent is to store information that will NOT change, and is further reason why a module will not typically contain a variable.  Variables can be modified throughout a program, whereas a CONSTANT (such as PI) should remain the same regardless of what it is being used for.</p>
+
+		  	<p>So if I can't create an instance of a module, how do I access it?  Very simple.  Ruby has us use either "include" or "require" to grant us access to the constants and methods contained within a module.  When a module is pulled in for usage within a class, this is referred to as a <strong>mix-in</strong>.  
+
+		  	<p>Another distinct difference between modules and classes is that modules cannot contain <em>sub-classes</em> (or "sub-modules"), nor can they <em>inherit</em> from another module.  With that said, classes pseudo-inherit from modules when they are mixed-in as mentioned above.
+		  
+		  	<p>------------------------</p>
+		  	
+		  	<p>While this was a very basic introduction to the concept of modules, it should give you a foundation with which to build your knowledge.  There are multiple tutorials online to help you expand that knowledge-base, but of course, the best practice is always to START CODING!</p>
+		  	
+				</article>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<footer>
+				<a href='mailto:andrew.mcclellan3@gmail.com'><span aria-hidden="true" data-icon="&#xe600;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://plus.google.com/u/0/communities/117586691276141762981'><span aria-hidden="true" data-icon="&#xe602;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://www.facebook.com/profile.php?id=16832695'><span aria-hidden="true" data-icon="&#xe603;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://twitter.com/AndrewMcC27'><span aria-hidden="true" data-icon="&#xe604;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://github.com/Roomack'><span aria-hidden="true" data-icon="&#xe608;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://www.linkedin.com/profile/view?id=94998946'><span aria-hidden="true" data-icon="&#xe60b;" class="down-arrow"></span></a>
+			</footer>
+		
+	</body>
+
+</html>
