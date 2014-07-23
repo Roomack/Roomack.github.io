@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>DBC360 - SQL</title>
+		<link rel = "stylesheet" href = "stylesheets/week7_technical.css">
+		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Technical</h1>
+		</header>
+
+		<nav>
+			<a href = "http://roomack.github.io">Home</a>&nbsp&nbsp&nbsp&nbsp
+		</nav>
+
+		<article>
+
+			<h2>Database Wars:  SQL vs NoSQL</h2>
+				<br>
+				<br>
+				<img src = "http://d37rcl8t6g8sj5.cloudfront.net/wp-content/uploads/Computer-War.jpg" height = 300 width = 500/>
+				<br>
+				<br>
+				<p>Our most recent week of coursework focused on a subject that I've known very little about until now, which is <strong>databases</strong>.  You've likely used the term "database" many times before, and I guarantee that a database has given you information at one time or another.  So what exactly is a database?  One definition: 
+				<br>
+				<br>
+				<img src = "http://oi61.tinypic.com/21kfcr6.jpg" height = 150 width = 500/>
+				<br>
+				<br>
+				<p>This defines a database in its simplest form, and is relatively easy to understand.  What becomes more complicated however, is the ways in which we store the information in a database, as well as how we access that information.  As you might image, there are a number of ways in which we can organize data, and with that comes even more ways to extract/access that data.  As technology in general continues to evolve, so too do our methods for using databases as efficiently as possible.  Enter our main contenders: SQL vs. NoSQL.</p>
+
+				<p>------------------------</p>
+
+			<h3>Relational Database Management</h3>
+
+			<img src = "http://sqlmag.com/site-files/sqlmag.com/files/imagecache/medium_img/uploads/2007/05/sql-595x335.jpg" width = 500 height = 300/>
+		  		<p>To understand exactly what SQL is, you must first understand what a <strong>Relational Database Management System (RDBMS)</strong> is and how it funtions.  Relational databases store data in a very particular away, which in turn allows for very specific methods in which we can manipulate/access that data.  An RDBMS stores information in tables, which consist of rows and columns that contain unique characteristics of a particular object.  These tables are connected to one another through a RELATIONAL element, most often a numbered ID row called a <strong>primary key</strong>.  Picture a table containing customer contact information, and another table which contains customer order information for the same group of customers.  The primary key which connects these two tables together and allows us to combine their information would most likely be a "CUSTOMER ID" that is unique to each customer.</p>
+
+		  		<p>So where does SQL come in?  SQL, or <strong>S</strong>tructured <strong>Q</strong>uery <strong>L</strong>anguage is the language we use to access relational databases.  It just so happens that over time, the acronym "SQL" has become a reference term for all relational databases in general.  Hence you will occasionally see developers reference an RDBMS as a "SQL database system".  More common SQL database systems include: Oracle, MySQL, and SQLite</p>
+
+		  		<h4>Some pros and cons of SQL databases:</h4>
+		  		<p>+ They are commonly used by most developers, and are supported by multiple vendors</p>
+		  		<p>+ With their wide usage, there are a multitude of resources available for creating/maintaining these systems</p> 
+		  		<p>- As the data contained within an SQL database system continues to grow, the system itself begins to perform slower and slower</p>
+		  		<p>- They aren't very agile when it comes to application construction in that they must operate within the confines of table design</p>
+		  		<br>
+		  		<p>------------------------</p>
+
+			<h3>Non-Relational Database Management</h3>
+
+		 	<img src = "http://www.cstor.cn/webedit/uploadfile/20140529100317370.jpg" width = 400 height = 400/>
+		  
+		  		<p>This now brings us to a quick and upcoming alternative to relational databases: NON-relational databases.  These can be more difficult to understand, in that non-relational DBs come in a variety of forms, and are not as simple to visualize as say, a table.  NoSQL databases, or <strong>N</strong>ot <strong>O</strong>nly <strong>S</strong>QL databases can store information in multiple forms such as key-value pair structures, graphs, or documents.  With this greater flexibility in design comes an added agility for application construction, which is why the battle between SQL and NoSQL has continued to intensify in recent years.</p>
+
+		  		<p>As mentioned above, an inherent weakness of more traditional SQL databases is that their performance declines as the information contained within them grows.  As you might imagine, this has led to some big name tech companies seeking more dynamic alternatives.  In particular, Google has developed its own NoSQLDBS called BigTable, which can handle gigantic amounts of information (other NoSQL systems include MongoDB, Revis, and RavenDB).</p>
+
+		  		<h4>Some pros and cons of non-relational database systems:</h4>
+
+		  		<p>+ They can better handle large amounts of information in that addtional servers can be easily added on to share the workload</p>
+		  		<p>+ They are more dynamic and scalable, which can be a critical benefit depending on the situation</p>
+		  		<p>- There aren't as many resources availabe in maintaining these systems, as they are relatively new and not as popular.</p>  
+		  		<br>
+		  		<p>------------------------</p>
+
+		  		<img src = "http://gigabiting.com/wp-content/uploads/you-decide.jpg" height = 200 width = 500/>
+			
+				<p>While the argument over which of these systems is more "beneficial" to developers will go on for some time, my initial research makes me believe that there may never be a definitive victor in this battle.  Technology continues to change and adapt over time, and our options for data storage/manipulation will undoubtedly do the same.  My inexperienced opinion is that each of these systems has unique advantages over the other, depeninding entirely upon the situation in which they are being used.  But by all means, do some additional research and decide for yourself!</p>  
+			
+			</article>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<footer>
+				<a href='mailto:andrew.mcclellan3@gmail.com'><span aria-hidden="true" data-icon="&#xe600;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://plus.google.com/u/0/communities/117586691276141762981'><span aria-hidden="true" data-icon="&#xe602;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href='https://www.facebook.com/profile.php?id=16832695'><span aria-hidden="true" data-icon="&#xe603;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://twitter.com/AndrewMcC27'><span aria-hidden="true" data-icon="&#xe604;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://github.com/Roomack'><span aria-hidden="true" data-icon="&#xe608;" class="down-arrow"></span></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href = 'https://www.linkedin.com/profile/view?id=94998946'><span aria-hidden="true" data-icon="&#xe60b;" class="down-arrow"></span></a>
+			</footer>
+		
+	</body>
+
+</html>
