@@ -3,7 +3,7 @@ header {
 	width: 98%;
 	top: 5px;
 	color: #00FF00;
-	background-image: url("http://www.vsu.edu/files/images/technology-services/technology_landing.jpg");
+	background-image: url("http://blog.heartland.org/wp-content/uploads/2013/12/Tech-technology-techtechnology.jpg");
 	background-size: 100%;
 	border: 5px solid black;
 	margin: auto;
@@ -82,7 +82,7 @@ article {
 footer {
 	width: 97%;
 	height: 50px;
-	background-image: url("http://www.vsu.edu/files/images/technology-services/technology_landing.jpg");
+	background-image: url("http://blog.heartland.org/wp-content/uploads/2013/12/Tech-technology-techtechnology.jpg");
 	border: 5px solid black;
 	margin: auto;
 	position: fixed;
@@ -102,7 +102,7 @@ footer a{
  }
 
  footer a:visited{
- 	color: white;
+ 	color: black;
  }
 
  footer a:hover{
