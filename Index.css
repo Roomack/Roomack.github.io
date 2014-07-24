@@ -83,6 +83,7 @@ article p {
 
 article a:link {
 	color: white;
+	text-decoration: none;
 }
 
 article a:visited {
