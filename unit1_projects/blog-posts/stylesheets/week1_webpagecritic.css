@@ -1,101 +1,61 @@
+html { 
+  background: url(http://oi60.tinypic.com/16hqdy1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header {
 	height: 150px;
-	width: 98%;
+	width: 100%;
 	top: 5px;
 	color: #00FF00;
-	background-image: url("http://www.vsu.edu/files/images/technology-services/technology_landing.jpg");
-	background-size: 100%;
-	border: 5px solid black;
 	margin: auto;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2.0em;
 	text-shadow: 3px 3px black;
 	font-family: 'Special Elite';
 }
 
 body {
-	background-color: #474747;
 	font-family: 'Special Elite';
 }
 
 nav {
-	top: -40px;
+	top: -80px;
 	height: 35px;
-	width: 98%;
+	width: 100%;
 	opacity: .7;
-	background: black;
 	color: white;
 	margin: auto;
 	text-align: center;
-	border-bottom: 2px solid white;
 	position: relative;
 }
 
 nav a {
 	top: 10px;
 	font-size: 1.2em;
-	color: white;
+	color: red;
 	bottom: 0px;
 	position: relative;
+}
+
+nav a:hover{
+	color: #00FF00;
 }
 
 article {
 	height: 100%;
 	width: 70%;
-	background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5hMercN1sNAEYdWKVlEW7hYScpVx0YHjwv2avRBSI1EDFWIhU");
-	background-size: 100%;
-	padding: 10px;
-	color: #00FF00;
+	background-color: black;
+	padding: 20px;
+	color: #086FA1;
 	border: 2px solid black;
 	margin: auto;
 	text-align: center;
-	box-shadow: 1px 1px white;
-}
-
-footer {
-	width: 97%;
-	height: 50px;
-	background-image: url("http://www.vsu.edu/files/images/technology-services/technology_landing.jpg");
-	border: 5px solid black;
-	margin: auto;
-	position: fixed;
-	color: white;
-	bottom: 0px;
-	text-align: center;
-
-}
-
-footer a{
-	top: 5px;
-	position: relative;
-}
-
- footer a:link {
- 	color: white;
- 	text-decoration: none;
- }
-
- footer a:visited{
- 	color: white;
- }
-
- footer a:hover{
- 	color: #00FF00;
- }
-
-h2 {
-	font-size: 2em;
-	margin-top: .5em;
-	margin-bottom: 0px;
-	text-decoration: underline;
-	color: #086FA1;
-}
-h3 {
+	opacity: .9;
 	font-size: 1.5em;
-}
-img {
-	max-width: 100%;
-	border: 3px solid #00FF00;
 }
 
 article p {
@@ -103,7 +63,65 @@ article p {
 	font-family: Garamond;
 }
 
-nav a:hover{
+sidebar {
+	width: 4%;
+	height: 65%;
+	background-color: white;
+	margin: auto;
+	color: black;
+	bottom: 0px;
+	text-align: center;
+	position: fixed;
+	top: 125px;
+	right: 0px;
+	opacity: .7;
+}
+
+ sidebar a {
+	top: 5px;
+	position: relative;
+}
+
+ sidebar a:link {
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+ sidebar a:visited{
+ 	color: black;
+ }
+
+ sidebar a:hover{
+ 	color: #00FF00;
+ }
+
+h2 {
+	font-size: 2em;
+	margin-top: .5em;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: #00FF00;
+}
+footer {
+	height: 5vh;
+	color: red;
+	padding-top: 15px;
+	background-color: black;
+	font-size: 1em;
+	text-align: center;
+}
+
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
 	color: #00FF00;
 }
 
@@ -122,7 +140,7 @@ nav a:hover{
 	font-family: 'IcoMoon';
 	content: attr(data-icon);
 	speak: none;
-	font-size: 36px;
+	font-size: 28px;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -130,3 +148,8 @@ nav a:hover{
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }	
+
+img {
+	max-width: 100%;
+	border: 3px solid #00FF00;
+}
