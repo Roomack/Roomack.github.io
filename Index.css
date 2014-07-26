@@ -60,7 +60,7 @@ article {
 	height: 10vh;
 	width: 60%;
 	background-color: black;
-	padding-top: 30px;
+	padding-top: 45px;
 	color: white;
 	border: 1px solid white;
 	text-align: center;
@@ -100,11 +100,11 @@ sidebar {
 	background-color: white;
 	margin: auto;
 	color: black;
-	bottom: 0px;
 	text-align: center;
 	position: fixed;
 	top: 125px;
 	right: 0px;
+	bottom: 0px;
 	opacity: .7;
 }
 
